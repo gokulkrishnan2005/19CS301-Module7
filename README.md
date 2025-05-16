@@ -97,41 +97,45 @@ print(series(x,n))
 
 EX: 7.4 Solve by recursion relation
 
-### Aim: To Write a Python Program to find whether a string is a palindrome or not using recursion
+### Aim: To Write a Python Program to to check and accept the given string if contains all vowels i.e. ‘a’, ‘e’,‘i’.’o’, ‘u’ .
 
 ### Algorithm:
-STEP 1: Start.
+ Start.
 
-STEP 2: Define a function.
+Define function ispresent(str, l) to check if all elements in list l are in str.
 
-STEP 3: Create a base case and recursive case to calculate the result.
+If list l is empty, return True (base case).
 
-STEP 4: Create a variable and get input from user.
+If first element l[0] is in str, recursively call ispresent(str, l[1:]).
 
-STEP 5 : Call the function.
+Input a string from the user.
 
-STEP 6: Print the result.
+Call ispresent(str, l) with l = ['a', 'e', 'i', 'o', 'u'].
 
-STEP 7: Stop.
+If it returns True, print "Accepted".
+
+Else, print "Not Accepted"
+
+Stop.
 
 ### Program:
 ```
-def is_palindrome(word):
-      if len(word)<1:
-            return True
-      else:
-            if word[0]==word[-1]:
-                 return is_palindrome(word[1:-1])
-             else:
-                  return False
-word = str(input())
-if is_palindrome(word)==True:
-        print("String is a palindrome")
+def ispresent(str,l):
+    if len(l)<=0:
+        return True
+    else:
+        if(l[0] in str):
+    	    return (True and ispresent(str,l[1:]))
+l=["a","e","i","o","u"]
+str=input()
+if(ispresent(str,l)):
+	print("Accepted")
 else:
-        print("String is not a palindrome")
+	print("Not Accepted")
+
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/d30ef836-1901-448a-a146-dc905fdc3198)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module7/blob/main/25.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
