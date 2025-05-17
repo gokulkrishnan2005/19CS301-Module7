@@ -180,7 +180,7 @@ for i in range(n):
     l.append(x)
 ```
 ### Output:
-![image](https://github.com/gokulkrishnan2005/19CS301-Module7/blob/main/24.png)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module7/blob/main/m7n.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
