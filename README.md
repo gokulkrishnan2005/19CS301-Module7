@@ -138,5 +138,50 @@ else:
 ![image](https://github.com/gokulkrishnan2005/19CS301-Module7/blob/main/25.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
+
+EX: 7.1   determine the sum of all elements in the list using recursion:
+### Aim: To Write a Python program to  determine the sum of all elements in the list using recursion
+
+### Algorithm:
+
+Start
+
+Define function sum_list(l, length)
+
+If length == 0, return 0 (base case for recursion).
+
+Else, return l[length - 1] + sum_list(l, length - 1) (recursive step).
+
+Create an empty list l.
+
+Read integer n (number of elements).
+
+Loop n times:
+
+Read integer x from user.
+
+Append x to list l.
+
+Call sum_list(l, n) and print the result.
+
+End
+
+### Program:
+```
+def sum_list(l,length):
+    if length==0:
+        return l[0]
+    return l[length]+sum_list(l,length-1)
+    
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l.append(x)
+```
+### Output:
+![image](https://github.com/gokulkrishnan2005/19CS301-Module7/blob/main/24.png)
+
+### Result: Thus, the given program is implemented and executed successfully .
  
 
