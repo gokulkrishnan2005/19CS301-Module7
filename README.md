@@ -64,7 +64,7 @@ else:
 
 EX: 7.3 TAYLOR SERIES
 
-###Aim: To python program to evaluate the series using recursion by collecting the x and n values from the user.
+### Aim: To python program to evaluate the series using recursion by collecting the x and n values from the user.
 ### ALGORITHM:
 STEP 1: Start.
 
@@ -139,7 +139,7 @@ else:
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
-EX: 7.1   determine the sum of all elements in the list using recursion:
+EX: 7.5   determine the sum of all elements in the list using recursion:
 ### Aim: To Write a Python program to  determine the sum of all elements in the list using recursion
 
 ### Algorithm:
