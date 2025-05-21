@@ -1,6 +1,7 @@
 # 19CS301-Module7
 EX: 7.1 RECURSION
-### Aim: To Write a Python program to find the sum of square of a first n Natural Numbers using recursion
+### Aim: 
+To Write a Python program to find the sum of square of a first n Natural Numbers using recursion
 
 ### Algorithm:
 STEP 1: Start.
@@ -31,7 +32,8 @@ print("Result is",s(n))
  
 
 EX: 7.2 TYPES OF RECURSIONS
-### Aim: To Write a Python Program to find the sum of all digits in a number using recursion
+### Aim: 
+To Write a Python Program to find the sum of all digits in a number using recursion
 ### Algorithm:
 STEP 1: Start.
 
@@ -58,13 +60,14 @@ else:
 ### Output:
 ![image](https://github.com/user-attachments/assets/c4d6416f-d333-49c1-9dd5-0f774cdabb03)
 
-###Result: Thus, the given program is implemented and executed successfully.
+### Result: Thus, the given program is implemented and executed successfully.
  
 
 
 EX: 7.3 TAYLOR SERIES
 
-### Aim: To python program to evaluate the series using recursion by collecting the x and n values from the user.
+### Aim: 
+To python program to evaluate the series using recursion by collecting the x and n values from the user.
 ### ALGORITHM:
 STEP 1: Start.
 
@@ -97,10 +100,11 @@ print(series(x,n))
 
 EX: 7.4 Solve by recursion relation
 
-### Aim: To Write a Python Program to to check and accept the given string if contains all vowels i.e. ‘a’, ‘e’,‘i’.’o’, ‘u’ .
+### Aim: 
+To Write a Python Program to to check and accept the given string if contains all vowels i.e. ‘a’, ‘e’,‘i’.’o’, ‘u’ .
 
 ### Algorithm:
- Start.
+Start.
 
 Define function ispresent(str, l) to check if all elements in list l are in str.
 
@@ -140,7 +144,8 @@ else:
 ### Result: Thus, the given program is implemented and executed successfully .
 
 EX: 7.5   determine the sum of all elements in the list using recursion:
-### Aim: To Write a Python program to  determine the sum of all elements in the list using recursion
+### Aim: 
+To Write a Python program to  determine the sum of all elements in the list using recursion
 
 ### Algorithm:
 
